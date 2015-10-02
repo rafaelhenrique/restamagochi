@@ -1,5 +1,5 @@
-# restamagochi
-Tamagochi with API REST
+# restamagotchi
+Tamagotchi with API REST
 
 ### About
 This is an didactic project to learn REST and Python
