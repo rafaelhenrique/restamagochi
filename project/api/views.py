@@ -1,8 +1,10 @@
-from flask import render_template
+# -*- encoding: utf-8 -*-
 
 from ..api import api
+
+from flask import jsonify
 
 
 @api.route('/', methods=['GET', ])
 def index():
-    return render_template('api.html')
+    return jsonify(message="will be ok"), 200
